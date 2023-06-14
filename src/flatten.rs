@@ -46,7 +46,7 @@ fn internal<'a>(
 }
 
 #[cfg(test)]
-fn get_naive_string_from_text(text: &tui::text::Text<'_>) -> String {
+fn get_naive_string_from_text(text: &ratatui::text::Text<'_>) -> String {
     text.lines
         .first()
         .unwrap()
